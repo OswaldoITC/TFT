@@ -1,0 +1,29 @@
+{Nombre,id,descripcion,alcance,niveles}
+{Yordle,1,Champ extra por ronda,Ellos,3-6}
+{Hextech,2,Escudo y daño magico,Ellos,2-4-6-8}
+{Tiro doble,3,Daño de ataque,Ellos,2-3-4-5}
+{Arcanistas,4,Poder de habilidad,Todos,2-4-6-8}
+{Sociality,5,Potenciar 1 aliado,Unico,1-2-3-4-5}
+{Chatarrero,6,Objetos ellos y escudos todos,Mixto,2-4-6}
+{Innovador,7,Aliado extra,Unico,3-5-7}
+{Guardaespaldas,8,Armadura y escudos,Ellos,2-4-6-8}
+{Rival,9,Unico,Unico,1}
+{Encantador,10,RM todos y curacion/escudos ellos,Mixto,2-3-4-5}
+{Mutante,11,Ataque,Ellos,3-5-7}
+{Maton,12,Vida todos y doble ellos,Mixto,2-4-6-8}
+{Quimtech,13,Ataque y curacion,Ellos,3-5-7-9}
+{Coloso,14,Vida y RD,Ellos,2}
+{Mecanico,15,Ataque,Todos,2-4-6}
+{Galante,16,Vida y Poder de habilidad,Ellos,3-5-7}
+{Tirador,17,Ataque,Ellos,2-4-6}
+{Retador,18,Ataque,Ellos,2-4-6-8}
+{Sindicato,19,Armadura y RM con curacion,Mixto,3-5-7}
+{Erudito,20,Mana,Todos,2-4-6}
+{Mente maestra,21,Mana,Unico,1}
+{Asesino,22,Daño,Ellos,2-4-6}
+{Vigilante,23,Aturdimiento,Unico,3}
+{Atacante,24,Ataque,Ellos,2-4-6}
+{Transformador,25,Adaptable,Ellos,1}
+{Gloton,26,Crecimiento,Ellos,1}
+{Mercenario,27,Botin extra,Unico,3-5-7}
+{Lord yordle,28,Unidad secreta,Unico,1}

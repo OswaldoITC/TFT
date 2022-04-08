@@ -1,0 +1,3 @@
+{Nombre, #Rasgos, Rasgos, Costo}
+{Brand, 2, 16, 4, 1}
+{Caitlyn, 2, 23, 17, 1}
