@@ -11,8 +11,7 @@ fRasgos.readline()
 #Listas campeones y rasgos
 campeones = []
 rasgos = []
-#campeon = Campeon("Sylas",2,{"Mercenario","Maton"},3)
-##Problema con el constructor pide a fuerza parametros
+
 campeon = Campeon("",0,{""},0)
 for linea in fCampeones:
     palabras = separaPalabras(linea)
@@ -31,10 +30,10 @@ for linea in fCampeones:
         r.append(int(palabras[i]))
     campeon.setRasgos(r)
     #campeon.descripcion()
-    campeones.append(campeon)
-    #campeon.descripcion()
-for champ in campeones:
-    print(champ.descripcion())
+    campeones.append(Campeon(campeon.getNombre(),campeon.getNRasgos(),campeon.getRasgos(),campeon.getCosto()))
+    campeon.descripcion()
+#for champ in campeones:
+    #print(champ.descripcion())
 
 #Close files
 fCampeones.close()

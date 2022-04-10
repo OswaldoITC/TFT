@@ -12,12 +12,28 @@ class Campeon:
         self.nRasgos = nRasgos
         self.rasgos = rasgos
         self.costo = costo
+    #sets y gets
+    def setNombre(self, nombre):
+        self.nombre = nombre
+    def setNRasgos(self, nRasgos):
+        self.nRasgos = nRasgos
+    def setRasgos(self, rasgos):
+        self.rasgos = rasgos
+    def setCosto(self, costo):
+        self.costo = costo
+    def getNombre(self):
+        return self.nombre
+    def getNRasgos(self):
+        return self.nRasgos
+    def getRasgos(self):
+        return self.rasgos
+    def getCosto(self):
+        return self.costo
 
     #Funcion imprime descripcion del campeon
     def descripcion(self):
         print("Nombre: " + self.nombre)
-        print("Cantidad de rasgos: " + str(self.nRasgos))
-        print("Rasgos:")
+        print(str(self.nRasgos) + " rasgos:")
         for rasgo in self.rasgos:
             print("      ",rasgo)
         print("Costo: " + str(self.costo))
