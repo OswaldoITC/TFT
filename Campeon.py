@@ -1,3 +1,5 @@
+#Clase Campeon
+#Objeto para guardar descripcion de campeones de tft
 class Campeon:
     #Constructor sin parametros
     def __init__(self):

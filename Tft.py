@@ -14,13 +14,12 @@ rasgos = []
 
 campeon = Campeon("",0,{""},0)
 for linea in fCampeones:
+    #print(linea)
     palabras = separaPalabras(linea)
     r = []
 
     campeon.setNombre(palabras[0])
-    #print(campeon.getNombre())
     campeon.setNRasgos(int(palabras[1]))
-    #print(campeon.getNRasgos())
     if palabras[1+campeon.getNRasgos()+1] != "":
         campeon.setCosto(int(palabras[1+campeon.getNRasgos()+1]))
     else:
@@ -29,11 +28,7 @@ for linea in fCampeones:
     for i in range(2,campeon.getNRasgos()+2):
         r.append(int(palabras[i]))
     campeon.setRasgos(r)
-    #campeon.descripcion()
     campeones.append(Campeon(campeon.getNombre(),campeon.getNRasgos(),campeon.getRasgos(),campeon.getCosto()))
-    campeon.descripcion()
-#for champ in campeones:
-    #print(champ.descripcion())
 
 #Close files
 fCampeones.close()
